@@ -1,0 +1,11 @@
+Hamming encoder/decoder: small java program that encodes and decodes data using hamming codes. The encoder uses the file named 'input.txt' for data input and the output is saved to the file named 'encoded.txt'.  The decoder uses the file named 'encoded.txt' for input and outputs data to file 'decoded.txt'
+
+build
+java *.java
+
+use
+	encode data:
+	java hammingEncoder
+
+	decode data:
+	java hammingDecoder
